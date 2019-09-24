@@ -15,4 +15,4 @@ jobs:
     - name: install
       run: yarn install
     - name: start
-      run: yarn start
+      run: yarn start --slack ${{ secrets.GITHUB_TOKEN }}
