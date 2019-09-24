@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Rstart
+    - name: install
       run: yarn install
-    - name: Rstart
+    - name: start
       run: yarn start
