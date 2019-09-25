@@ -7,12 +7,16 @@
     "start": "ts-node bin/index.ts"
   },
   "dependencies": {
+    "@types/base64-js": "^1.2.5",
     "@types/cheerio": "^0.22.13",
+    "@types/js-base64": "^2.3.1",
     "@types/js-yaml": "^3.12.1",
     "@types/node": "^12.7.7",
     "axios": "^0.19.0",
     "cheerio": "^1.0.0-rc.3",
     "commander": "^3.0.1",
+    "firebase-admin": "^8.6.0",
+    "js-base64": "^2.5.1",
     "js-yaml": "^3.13.1",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.3"
