@@ -70,7 +70,7 @@ const main = async() => {
             })
             await notify(data, {
                 icon: 'new',
-                beforePrice: beforeData.price,
+                beforePrice: 0,
                 color: '#18A558'
             })
         }
