@@ -31,6 +31,21 @@ const main = async() => {
         const before = await ref.get()
         const beforeData = before.data() as typeof data
 
+        if (!beforeData) {
+            ref.set({
+                ...data,
+                options: {
+                    vector: 0
+                }
+            })
+            await notify(data, {
+                icon: 'new',
+                beforePrice: 0,
+                color: '#18A558'
+            })
+            return
+        }
+
         // 値下がり
         if (beforeData.price > data.price) {
             ref.set({
@@ -44,6 +59,7 @@ const main = async() => {
                 beforePrice: beforeData.price,
                 color: '#D01110'
             })
+            return
         }
 
         // 値上がり
@@ -59,21 +75,9 @@ const main = async() => {
                 beforePrice: beforeData.price,
                 color: '#18A558'
             })
+            return
         }
 
-        if (!beforeData) {
-            ref.set({
-                ...data,
-                options: {
-                    vector: 0
-                }
-            })
-            await notify(data, {
-                icon: 'new',
-                beforePrice: 0,
-                color: '#18A558'
-            })
-        }
     })
 }
 
