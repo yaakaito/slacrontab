@@ -25,3 +25,5 @@ tracks:
     name: TSP ヴェズーヴァ NM
   - url: http://wonder.wisdom-guild.net/price/Ulamog%2C+the+Ceaseless+Hunger/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
     name: 絶え間ない飢餓ウラモグ ENG
+  - url: http://wonder.wisdom-guild.net/price/Gush/?set%5B%5D=MMQ&lang%5B%5D=ENG&state_code=EX%3A&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+    name: Foil Gush ENG EX+
