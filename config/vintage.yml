@@ -9,10 +9,19 @@ tracks:
   - url: http://wonder.wisdom-guild.net/price/Force+of+Will/?set%5B%5D=&lang%5B%5D=&state_code=&price_gt=32000&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
     name: Judge Force of Will/意思の力 EX+
   - url: http://wonder.wisdom-guild.net/price/Scalding+Tarn/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-    name: Foil 沸騰する小湖/Scalding Tarn
+    name: Foil Scalding Tarn
   - url: http://wonder.wisdom-guild.net/price/Scalding+Tarn/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
     name: ZEN Expedition 沸騰する小湖/Scalding Tarn
     exp:
       ignore:
         - ZEN
         - MM3
+  - url: http://wonder.wisdom-guild.net/price/Bazaar+of+Baghdad/?stock_gt=1
+  - url: http://wonder.wisdom-guild.net/price/Walking+Ballista/?set%5B%5D=&lang%5B%5D=&state_code=NM%3A&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+    name: 歩行バリスタ NM
+  - url: http://wonder.wisdom-guild.net/price/Teferi%2C+Hero+of+Dominaria/?set%5B%5D=&lang%5B%5D=&state_code=NM%3A&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+    name: ドミナリアの英雄、テフェリー NM
+  - url: http://wonder.wisdom-guild.net/price/Vesuva/?set%5B%5D=TSP&lang%5B%5D=&state_code=NM%3A&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+    name: TSP ヴェズーヴァ NM
+  - url: http://wonder.wisdom-guild.net/price/Ulamog%2C+the+Ceaseless+Hunger/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+    name: 絶え間ない飢餓ウラモグ ENG
