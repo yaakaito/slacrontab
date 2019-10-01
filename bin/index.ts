@@ -7,6 +7,9 @@ import path from 'path'
 import { Base64 } from 'js-base64'
 import admin from 'firebase-admin'
 
+// @ts-ignore
+import sum from 'hash-sum'
+
 program.option('--slack [type]', 'slack incoming hook key')
 program.option('--configs [type]', 'configs dir')
 program.option('--firebase [type]', 'firebase json')
@@ -81,7 +84,7 @@ const main = async() => {
     })
 }
 
-const getHash = (name: string) => Base64.encode(name)
+const getHash = (name: string) => sum(name)
 
 const parse = async(config: {
     url: string,
@@ -119,7 +122,6 @@ const notify = async(target: ReturnType<typeof parse> extends Promise<infer T> ?
     color: string
 }) => {
     try {
-        console.log('aa')
         await axios.post(`https://hooks.slack.com/services/${program.slack}`, JSON.stringify({
             attachments: [
                 {
