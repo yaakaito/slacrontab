@@ -6,7 +6,7 @@ tracks:
           - IMA
   - url: http://wonder.wisdom-guild.net/price/Preordain/?set%5B%5D=&lang%5B%5D=&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
     name: Foil Preordain/定業
-  - url: http://wonder.wisdom-guild.net/price/Force+of+Will/?set%5B%5D=&lang%5B%5D=&state_code=&price_gt=32000&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Force+of+Will/?set%5B%5D=&lang%5B%5D=&state_code=&price_gt=34000&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
     name: Judge Force of Will/意思の力 EX+
   - url: http://wonder.wisdom-guild.net/price/Scalding+Tarn/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
     name: Foil Scalding Tarn
@@ -58,3 +58,4 @@ tracks:
   - url: http://wonder.wisdom-guild.net/price/Luxury+Suite/?lang%5B0%5D=ENG&stock_gt=1
   - url: http://wonder.wisdom-guild.net/price/Sea+of+Clouds/?lang%5B0%5D=ENG&stock_gt=1
   - url: http://wonder.wisdom-guild.net/price/Morphic+Pool/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Prismatic+Vista/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
