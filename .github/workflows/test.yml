@@ -1,0 +1,13 @@
+name: test action
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: install
+      run: yarn install
+    - name: start
+      run: yarn start --slack ${{ secrets.SLACK_INCOMING_HOOK_KEY }} --configs ./config --firebase ${{ secrets.FIREBASE_ACCESS_KEY }}
