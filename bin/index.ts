@@ -27,60 +27,63 @@ const main = async() => {
     const configDir = path.resolve(process.cwd(), program.configs)
     const files = fs.readdirSync(configDir)
     const configs = files.map(file => yaml.safeLoad(fs.readFileSync(path.resolve(configDir, file), 'utf8')))
-    configs[0].tracks.forEach(async(config: { url: string }) => {
-        const data = await parse(config)
-        const hash = getHash(data.name)
-        const ref = db.collection('tracks').doc(hash)
-        const before = await ref.get()
-        const beforeData = before.data() as typeof data
+    configs.forEach((config, index) => {
+        config.tracks.forEach(async(config: { url: string }) => {
+            const data = await parse(config)
+            console.info(`checking ${files[index]} / ${data.name}`)
+            const hash = getHash(data.url)
+            const ref = db.collection('tracks').doc(hash)
+            const before = await ref.get()
+            const beforeData = before.data() as typeof data
 
-        if (!beforeData) {
-            ref.set({
-                ...data,
-                options: {
-                    vector: 0
-                }
-            })
-            await notify(data, {
-                icon: 'new',
-                beforePrice: 0,
-                color: '#18A558'
-            })
-            return
-        }
+            if (!beforeData) {
+                ref.set({
+                    ...data,
+                    options: {
+                        vector: 0
+                    }
+                })
+                await notify(data, {
+                    icon: 'new',
+                    beforePrice: 0,
+                    color: '#18A558'
+                })
+                return
+            }
 
-        // 値下がり
-        if (beforeData.price > data.price) {
-            ref.set({
-                ...data,
-                options: {
-                    vector: -1
-                }
-            })
-            await notify(data, {
-                icon: 'arrow_heading_down',
-                beforePrice: beforeData.price,
-                color: '#D01110'
-            })
-            return
-        }
+            // 値下がり
+            if (beforeData.price > data.price) {
+                ref.set({
+                    ...data,
+                    options: {
+                        vector: -1
+                    }
+                })
+                await notify(data, {
+                    icon: 'arrow_heading_down',
+                    beforePrice: beforeData.price,
+                    color: '#D01110'
+                })
+                return
+            }
 
-        // 値上がり
-        if (beforeData.price < data.price) {
-            ref.set({
-                ...data,
-                options: {
-                    vector: +1
-                }
-            })
-            await notify(data, {
-                icon: 'arrow_heading_up',
-                beforePrice: beforeData.price,
-                color: '#18A558'
-            })
-            return
-        }
+            // 値上がり
+            if (beforeData.price < data.price) {
+                ref.set({
+                    ...data,
+                    options: {
+                        vector: +1
+                    }
+                })
+                await notify(data, {
+                    icon: 'arrow_heading_up',
+                    beforePrice: beforeData.price,
+                    color: '#18A558'
+                })
+                return
+            }
 
+        })
     })
 }
 
@@ -101,6 +104,7 @@ const parse = async(config: {
         lang: $($tr.children[3]).text(),
         condition: $($tr.children[6]).text(),
         link: $($tr.children[7]).find('a').attr('href'),
+        url: config.url
     }))
 
     const target = data.filter(d => {
