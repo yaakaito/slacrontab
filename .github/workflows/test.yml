@@ -10,4 +10,4 @@ jobs:
     - name: install
       run: yarn install
     - name: start
-      run: yarn start --slack ${{ secrets.SLACK_INCOMING_HOOK_KEY }} --configs ./config --firebase ${{ secrets.FIREBASE_ACCESS_KEY }}
+      run: yarn testr
