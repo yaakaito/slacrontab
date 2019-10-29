@@ -1,0 +1,37 @@
+tracks:
+  - url: http://wonder.wisdom-guild.net/price/Scalding+Tarn/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+    name: Foil Scalding Tarn
+  - url: http://wonder.wisdom-guild.net/price/Scalding+Tarn/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+    name: ZEN Expedition 沸騰する小湖/Scalding Tarn
+    exp:
+      ignore:
+        - ZEN
+        - MM3
+  - url: http://wonder.wisdom-guild.net/price/Vesuva/?set%5B%5D=TSP&lang%5B%5D=&state_code=NM%3A&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+    name: TSP ヴェズーヴァ NM
+  - url: http://wonder.wisdom-guild.net/price/Ulamog%2C+the+Ceaseless+Hunger/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+    name: 絶え間ない飢餓ウラモグ ENG
+  - url: http://wonder.wisdom-guild.net/price/Wrenn+and+Six/?set%5B%5D=&lang%5B%5D=ENG&state_code=NM%3A&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Wheel+of+Fortune/?set%5B%5D=&lang%5B%5D=&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&quality%5B%5D=promo&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Imperial+Seal/?set%5B%5D=&lang%5B%5D=&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&quality%5B%5D=promo&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Luxury+Suite/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Spire+Garden/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Toxic+Deluge/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Cyclonic+Rift/?set%5B%5D=&lang%5B%5D=ENG&state_code=EX%3A&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Green+Sun%27s+Zenith/?set%5B%5D=&lang%5B%5D=ENG&state_code=NM%3A&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Search+for+Azcanta/?set%5B%5D=&lang%5B%5D=ENG&state_code=NM%3A&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Search+for+Azcanta/?set%5B%5D=&lang%5B%5D=ENG&state_code=NM%3A&price_gt=&price_lt=&quality%5B%5D=foil&quality%5B%5D=promo&stock_gt=1&stock_lt=#ptable
+    name: Foil アズカンタの探索
+  - url: http://wonder.wisdom-guild.net/price/Yuriko%2C+the+Tiger%27s+Shadow/?stock_gt=1
+  - url: http://wonder.wisdom-guild.net/price/Force+of+Negation/?stock_gt=1
+  - url: http://wonder.wisdom-guild.net/price/Worthy+Knight/?stock_gt=1
+  - url: http://wonder.wisdom-guild.net/price/Ravager+Wurm/?stock_gt=1
+  - url: http://wonder.wisdom-guild.net/price/Roalesk%2C+Apex+Hybrid/?stock_gt=1
+  - url: http://wonder.wisdom-guild.net/price/Ugin%2C+the+Ineffable/?stock_gt=1
+  - url: http://wonder.wisdom-guild.net/price/Yixlid+Jailer/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&quality%5B%5D=promo&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Notion+Thief/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Legion%27s+End/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Luxury+Suite/?lang%5B0%5D=ENG&stock_gt=1
+  - url: http://wonder.wisdom-guild.net/price/Sea+of+Clouds/?lang%5B0%5D=ENG&stock_gt=1
+  - url: http://wonder.wisdom-guild.net/price/Morphic+Pool/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Prismatic+Vista/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
