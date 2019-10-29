@@ -1,11 +1,10 @@
 {
-  "name": "parse-whisper",
+  "name": "slacrontab",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "start": "ts-node bin/index.ts",
-    "testr": "ts-node bin/test.ts"
   },
   "dependencies": {
     "@types/base64-js": "^1.2.5",
