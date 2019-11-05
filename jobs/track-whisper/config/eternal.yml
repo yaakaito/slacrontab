@@ -1,6 +1,9 @@
 tracks:
   - url: http://wonder.wisdom-guild.net/price/Scalding+Tarn/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
     name: Foil Scalding Tarn
+    exp:
+      ignore:
+        - MM3
   - url: http://wonder.wisdom-guild.net/price/Scalding+Tarn/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
     name: ZEN Expedition 沸騰する小湖/Scalding Tarn
     exp:
