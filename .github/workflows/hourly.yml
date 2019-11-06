@@ -10,13 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: install
-      run: yarn install
     - uses: actions/cache@v1
       with:
         path: node_modules
         key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
         restore-keys: |
           ${{ runner.os }}-node-
+    - run: yarn install
     - name: start
       run: yarn start --slack ${{ secrets.SLACK_INCOMING_HOOK_KEY }} --configs ./config --firebase ${{ secrets.FIREBASE_ACCESS_KEY }}
