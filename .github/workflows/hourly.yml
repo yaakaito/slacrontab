@@ -1,9 +1,9 @@
 name: Run hourly jobs
 
-# on: push
-on:
-  schedule:
-    - cron: 0 * * * *
+on: push
+# on:
+#   schedule:
+#     - cron: 0 * * * *
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
     - uses: actions/cache@v1
       with:
         path: node_modules
-        key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+        key: ${{ runner.os }}-node-${{ github.event_name }}-${{ hashFiles('**/yarn.lock') }}
         restore-keys: |
           ${{ runner.os }}-node-
     - run: yarn install
