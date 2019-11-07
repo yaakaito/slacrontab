@@ -15,7 +15,7 @@ jobs:
         path: node_modules
         key: ${{ runner.os }}-node-${{ github.event_name }}-${{ hashFiles('**/yarn.lock') }}
         restore-keys: |
-          ${{ runner.os }}-node-
+          ${{ runner.os }}-node-${{ github.event_name }}-
     - run: yarn install
     - name: start
       run: yarn start --slack ${{ secrets.SLACK_INCOMING_HOOK_KEY }} --configs ./config --firebase ${{ secrets.FIREBASE_ACCESS_KEY }}
