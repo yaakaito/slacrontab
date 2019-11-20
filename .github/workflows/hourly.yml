@@ -18,4 +18,4 @@ jobs:
 #           ${{ runner.os }}-node-${{ github.event_name }}-
     - run: yarn install
     - name: start
-      run: yarn start --slack ${{ secrets.SLACK_INCOMING_HOOK_KEY }} --configs ./config --firebase ${{ secrets.FIREBASE_ACCESS_KEY }}
+      run: yarn start --job track-whisper --job alert-stocks --slack ${{ secrets.SLACK_INCOMING_HOOK_KEY }} --configs ./config --firebase ${{ secrets.FIREBASE_ACCESS_KEY }}

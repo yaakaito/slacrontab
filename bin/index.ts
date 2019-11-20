@@ -6,6 +6,7 @@ import admin from 'firebase-admin'
 program.option('--slack [type]', 'slack incoming hook key')
 program.option('--configs [type]', 'configs dir')
 program.option('--firebase [type]', 'firebase json')
+program.option('--job [type]', 'job name(s)', (value, prev) => prev.concat([value]), [])
 program.parse(process.argv)
 
 const main = async() => {
@@ -19,8 +20,15 @@ const main = async() => {
                 await axios.post(`https://hooks.slack.com/services/${program.slack}`, JSON.stringify(args))
             }
         }
-        const job = require('../jobs/track-whisper').default as Function
-        job(slack, db)
+
+        ;(program.job as string[]).forEach(name => {
+            try {
+                const job = require(`../jobs/${name}`).default as Function
+                job(slack, db)
+            } catch(e) {
+                console.error(e)
+            }
+        })
     } catch (e) {
         console.error(e)
         return process.exit(2)

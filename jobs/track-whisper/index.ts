@@ -13,7 +13,7 @@ export default async(slack: { post: (args: any) => void }, db: FirebaseFirestore
     configs.forEach((config, index) => {
         config.tracks.forEach(async(config: { url: string }) => {
             const data = await parse(config)
-            console.info(`checking ${files[index]} / ${data.name}`)
+            console.info(`[track-whisper] checking ${files[index]} / ${data.name}`)
             const hash = getHash(data.url)
             const ref = db.collection('tracks').doc(hash)
             const before = await ref.get()
