@@ -8,7 +8,7 @@ type Data = {
 export default async(slack: { post: (args: any) => void }, db: FirebaseFirestore.Firestore) => {
     const targets = [
 //         'channel-oko',
-//         'hareruya-wrenn'
+        'hareruya-heath'
     ]
     const collection = db.collection('alert-stocks')
     return Promise.all(targets.map(async(target) => {
