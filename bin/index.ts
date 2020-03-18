@@ -6,7 +6,7 @@ import admin from 'firebase-admin'
 program.option('--slack [type]', 'slack incoming hook key')
 program.option('--configs [type]', 'configs dir')
 program.option('--firebase [type]', 'firebase json')
-program.option('--job [type]', 'job name(s)', (value, prev) => prev.concat([value]), [])
+program.option('--job [type]', 'job name(s)', (value, prev) => prev.concat([value as never]), [])
 program.parse(process.argv)
 
 const main = async() => {
