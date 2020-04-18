@@ -1,4 +1,4 @@
-name: Run hourly jobs
+name: Run every minues jobs
 
 # on: push
 on:
