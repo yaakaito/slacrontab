@@ -1,0 +1,14 @@
+name: Run hourly jobs
+
+# on: push
+on:
+  schedule:
+    - cron: * * * * *
+  push:
+    branches: master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - run: curl ${{ secrets.IIKANJI_HOOK }}
