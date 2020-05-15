@@ -28,11 +28,11 @@ tracks:
       ignore:
           - THB
   - url: http://wonder.wisdom-guild.net/price/Brazen+Borrower/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-      exp:
+    exp:
       ignore:
           - ELD
   - url: http://wonder.wisdom-guild.net/price/Lurrus+of+the+Dream-Den/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-      exp:
+    exp:
       ignore:
           - IKO
   - url: http://wonder.wisdom-guild.net/price/Ice-Fang+Coatl/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
