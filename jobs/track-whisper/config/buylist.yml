@@ -9,8 +9,6 @@ tracks:
       ignore:
           - EMA
   - url: http://wonder.wisdom-guild.net/price/Bazaar+of+Baghdad/?stock_gt=1
-  - url: http://wonder.wisdom-guild.net/price/Force+of+Will/?set%5B%5D=&lang%5B%5D=&state_code=&price_gt=37000&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-    name: Judge Force of Will/意思の力 EX+
   - url: http://wonder.wisdom-guild.net/price/Force+of+Negation/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
     name: Foil Force of Negation
   - url: http://wonder.wisdom-guild.net/price/Dockside+Extortionist/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
