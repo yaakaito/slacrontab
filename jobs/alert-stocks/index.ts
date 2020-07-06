@@ -10,7 +10,7 @@ export default async(slack: { post: (args: any) => void }, db: FirebaseFirestore
 //         'channel-oko',
         // 'hareruya-heath'
 //         'hareruya-wrenn'
-        'dragon-star'
+        'single-start-grim'
 // >>>>>>> add dragon start
     ]
     const collection = db.collection('alert-stocks')
@@ -18,6 +18,7 @@ export default async(slack: { post: (args: any) => void }, db: FirebaseFirestore
         console.info(`[alert-stocks] checking ${target}`)
         const f = require(`./parsers/${target}`) as () => Promise<Data>
         const { id, name, url, stock } = await f()
+        console.log(stock)
         const ref = collection.doc(id)
         const before = (await ref.get()).data() as Data | undefined
         if (!before || (before && before.stock > stock)) {
