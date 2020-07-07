@@ -1,9 +1,4 @@
 tracks:
-  - url: http://wonder.wisdom-guild.net/price/Flusterstorm/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-    name: Judge Flusterstorm/狼狽の嵐 EX
-    exp:
-      ignore:
-          - IMA
   - url: http://wonder.wisdom-guild.net/price/Dack+Fayden/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&quality%5B%5D=promo&stock_gt=1&stock_lt=#ptable
     exp:
       ignore:
@@ -35,3 +30,4 @@ tracks:
           - IKO
   - url: http://wonder.wisdom-guild.net/price/Ice-Fang+Coatl/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
   - url: http://wonder.wisdom-guild.net/price/Fierce+Guardianship/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Tropical+Island/?set%5B%5D=&lang%5B%5D=GER&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
