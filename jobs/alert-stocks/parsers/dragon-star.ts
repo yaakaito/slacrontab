@@ -7,7 +7,7 @@ module.exports = async(url: string = 'https://www.dragonstartcg.com/240040426-1'
     const stock = parseInt($('.product-specification-table > tbody > tr.odd > td:nth-child(3)').text(), 10)
     return {
         id: 'dragon-start-dockside-ex',
-        name: 'OuaT(Foil)',
+        name: '波止場の恐喝者',
         url,
         stock,
     }
