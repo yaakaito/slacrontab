@@ -10,7 +10,8 @@ export default async(slack: { post: (args: any) => void }, db: FirebaseFirestore
 //         'channel-oko',
         // 'hareruya-heath'
 //         'hareruya-wrenn'
-        'single-star-grim'
+//         'single-star-grim',
+        'dragon-star'
 // >>>>>>> add dragon start
     ]
     const collection = db.collection('alert-stocks')
