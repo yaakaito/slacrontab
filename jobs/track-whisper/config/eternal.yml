@@ -4,21 +4,5 @@ tracks:
     exp:
       ignore:
         - MM3
-  - url: http://wonder.wisdom-guild.net/price/Scalding+Tarn/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=30000&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-    name: ZEN Expedition 沸騰する小湖/Scalding Tarn
-    exp:
-      ignore:
-        - ZEN
-        - MM3
-  - url: http://wonder.wisdom-guild.net/price/Wheel+of+Fortune/?set%5B%5D=&lang%5B%5D=&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&quality%5B%5D=promo&stock_gt=1&stock_lt=#ptable
   - url: http://wonder.wisdom-guild.net/price/Imperial+Seal/?set%5B%5D=&lang%5B%5D=&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&quality%5B%5D=promo&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Yixlid+Jailer/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&quality%5B%5D=promo&stock_gt=1&stock_lt=#ptable
   - url: http://wonder.wisdom-guild.net/price/Notion+Thief/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Luxury+Suite/?lang%5B0%5D=ENG&stock_gt=1
-  - url: http://wonder.wisdom-guild.net/price/Sea+of+Clouds/?lang%5B0%5D=ENG&stock_gt=1
-  - url: http://wonder.wisdom-guild.net/price/Morphic+Pool/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Prismatic+Vista/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Rishadan+Port/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-    exp:
-      ignore:
-        - A25
