@@ -32,3 +32,7 @@ tracks:
   - url: http://wonder.wisdom-guild.net/price/Fierce+Guardianship/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
   - url: http://wonder.wisdom-guild.net/price/Tropical+Island/?set%5B%5D=&lang%5B%5D=GER&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
   - url: http://wonder.wisdom-guild.net/price/Temur+Sabertooth/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Mox+Diamond/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Mox+Diamond/?set%5B%5D=V10&lang%5B%5D=&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Thassa%27s+Oracle/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=4500&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Golos%2C+Tireless+Pilgrim/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
