@@ -1,28 +1,23 @@
 tracks:
-  - url: http://wonder.wisdom-guild.net/price/Dack+Fayden/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&quality%5B%5D=promo&stock_gt=1&stock_lt=#ptable
-    exp:
-      ignore:
-          - EMA
   - url: http://wonder.wisdom-guild.net/price/Bazaar+of+Baghdad/?stock_gt=1
-  - url: http://wonder.wisdom-guild.net/price/Force+of+Negation/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-    name: Foil Force of Negation
-  - url: http://wonder.wisdom-guild.net/price/Dockside+Extortionist/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Urza%2C+Lord+High+Artificer/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Once+Upon+a+Time/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Polluted+Delta/?set%5B%5D=&lang%5B%5D=&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Mishra%27s+Workshop/?stock_gt=1
+  - url: http://wonder.wisdom-guild.net/price/Polluted+Delta/?set%5B%5D=ONS&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+    name: [ONS][Foil] Polluted Delta
+  - url: http://wonder.wisdom-guild.net/price/Flooded+Strand/?set%5B%5D=ONS&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+    name: [ONS][Foil] Flooded Strand
+  - url: http://wonder.wisdom-guild.net/price/Tarmogoyf/?set%5B%5D=FUT&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+    name: [FUT][Foil]Tarmogoyf
+  - url: http://wonder.wisdom-guild.net/price/Underground+Sea/?set%5B%5D=3ED&lang%5B%5D=GER&state_code=&price_gt=140000&price_lt=&stock_gt=1&stock_lt=#ptable
+    name: [FBB][GER] Underground Sea
+  - url: http://wonder.wisdom-guild.net/price/Leyline+of+the+Void/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+    name: [TSR][Foil] Leyline of the Void
     exp:
       ignore:
-          - KTK
-  - url: http://wonder.wisdom-guild.net/price/Mishra%27s+Workshop/?set%5B%5D=&lang%5B%5D=&state_code=EX%3A&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Uro%2C+Titan+of+Nature%27s+Wrath/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+        - GPT
+        - M11
+        - M20
+  - url: http://wonder.wisdom-guild.net/price/Abrupt+Decay/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+    name: [TSR][Foil] Abrupt Decay
     exp:
       ignore:
-          - THB
-  - url: http://wonder.wisdom-guild.net/price/Ice-Fang+Coatl/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Fierce+Guardianship/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Tropical+Island/?set%5B%5D=&lang%5B%5D=GER&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Temur+Sabertooth/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Mox+Diamond/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Mox+Diamond/?set%5B%5D=V10&lang%5B%5D=&state_code=&price_gt=&price_lt=&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Thassa%27s+Oracle/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=4500&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
-  - url: http://wonder.wisdom-guild.net/price/Golos%2C+Tireless+Pilgrim/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+        - MM3
