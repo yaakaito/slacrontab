@@ -9,6 +9,10 @@ tracks:
     name: FUT Foil Tarmogoyf
   - url: http://wonder.wisdom-guild.net/price/Underground+Sea/?set%5B%5D=3ED&lang%5B%5D=GER&state_code=&price_gt=140000&price_lt=&stock_gt=1&stock_lt=#ptable
     name: FBB GER Underground Sea
+  - url: http://wonder.wisdom-guild.net/price/Badlands/?set%5B%5D=3ED&lang%5B%5D=GER&state_code=&price_gt=100000&price_lt=&stock_gt=1&stock_lt=#ptable
+    name: FBB GER Badlands
+  - url: http://wonder.wisdom-guild.net/price/Bayou/?set%5B%5D=3ED&lang%5B%5D=GER&state_code=&price_gt=100000&price_lt=&stock_gt=1&stock_lt=#ptable
+    name: FBB GER Bayou
   - url: http://wonder.wisdom-guild.net/price/Leyline+of+the+Void/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
     name: TSR Foil Leyline of the Void
     exp:
