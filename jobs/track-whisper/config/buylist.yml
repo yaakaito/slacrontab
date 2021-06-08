@@ -25,3 +25,5 @@ tracks:
     exp:
       ignore:
         - MM3
+  - url: http://wonder.wisdom-guild.net/price/Wasteland/?quality%5B0%5D=foil&quality%5B1%5D=promo&lang%5B0%5D=ENG&price_gt=30000&stock_gt=1
+    name: Promo Wasteland
