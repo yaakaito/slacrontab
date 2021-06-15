@@ -27,3 +27,5 @@ tracks:
         - MM3
   - url: http://wonder.wisdom-guild.net/price/Wasteland/?quality%5B0%5D=foil&quality%5B1%5D=promo&lang%5B0%5D=ENG&price_gt=30000&stock_gt=1
     name: Promo Wasteland
+  - url: http://wonder.wisdom-guild.net/price/Dark+Ritual/?set%5B%5D=MMQ&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+    name: MMQ Foil Dark Ritual
