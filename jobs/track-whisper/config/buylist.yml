@@ -18,7 +18,7 @@ tracks:
         - GPT
         - M11
         - M20
-  - url: http://wonder.wisdom-guild.net/price/Abrupt+Decay/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
+  - url: http://wonder.wisdom-guild.net/price/Abrupt+Decay/?set%5B%5D=&lang%5B%5D=ENG&state_code=&price_gt=12000&price_lt=&quality%5B%5D=foil&stock_gt=1&stock_lt=#ptable
     name: TSR Foil Abrupt Decay
     exp:
       ignore:
